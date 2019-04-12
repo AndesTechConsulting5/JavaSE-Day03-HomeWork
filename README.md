@@ -1,5 +1,5 @@
 # JavaSE-Day03-HomeWork
-Домашняя работа 1
+# Домашняя работа 1
 
 Клонировать существующий проект
 gitHub: https://github.com/AndesTechConsulting5/JavaSE-Day03-HomeWork.git
