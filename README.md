@@ -4,10 +4,10 @@
 Клонировать существующий проект
 gitHub: https://github.com/AndesTechConsulting5/JavaSE-Day03-HomeWork.git
 
-Создать класс Customer
+Создать класс Customer.
 Создать поля firstName, secondName, address.
 
-Создать класс Account
+Создать класс Account.
 Создать поля id, balance, customer (поле типа Customer).
 
 Поля должны быть закрыты.
