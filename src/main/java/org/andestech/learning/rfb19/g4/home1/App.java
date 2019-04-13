@@ -11,6 +11,6 @@ public class App
 
     {
         Customer client1 = new Customer ("Иван", "Петров", "ул.Ленина, д.1");
-        Account account2 = new Account (1, 1024.47, client1);
+        Account account1 = new Account (1, 1024.47, client1);
     }
 }
