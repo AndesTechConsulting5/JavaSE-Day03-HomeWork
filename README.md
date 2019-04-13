@@ -16,6 +16,8 @@ gitHub: https://github.com/AndesTechConsulting5/JavaSE-Day03-HomeWork.git
 
 Для баланса на счёте создать ограничения сверху и снизу.
 
+Создать экземпляры класов, протестировать функциональность.
+
 Создать ветку.
 Имя ветки должно содержать строку rfb, например VasilyPetrov-rfb-g4-home1.
 
