@@ -10,6 +10,7 @@ public class App
     public static void main( String[] args )
 
     {
-
+        Customer client1 = new Customer ("Иван", "Петров", "ул.Ленина, д.1");
+        Account account2 = new Account (1, 1024.47, client1);
     }
 }
