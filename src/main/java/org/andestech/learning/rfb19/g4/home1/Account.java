@@ -22,7 +22,7 @@ public class Account {
 
         if (balance < 100 || balance > 1500) {
 
-            System.out.println("Balance is out of range 100..1500");
+            System.out.println("[WARNING] Balance is out of range 100..1500");
         } else {
             this.balance = balance;
         }
