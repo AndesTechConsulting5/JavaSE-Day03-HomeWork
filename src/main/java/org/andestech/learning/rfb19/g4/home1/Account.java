@@ -9,8 +9,9 @@ public class Account {
     private Customer customer = new Customer();
 
 
-    public Account(){
 
+
+    public Account(){
     }
 
     // Constructor
@@ -19,6 +20,11 @@ public class Account {
         this.id = id;
         //this.balance = balance;
         this.customer = customer;
+
+        //double maxValue = 1500;
+        //double minValue = 100;
+
+
 
         if (balance < 100 || balance > 1500) {
 
@@ -36,7 +42,13 @@ public class Account {
     }
 
     public void setBalance( double balance ){
-        this.balance = balance;
+
+        if (balance < 100 || balance > 1500) {
+
+            System.out.println("[WARNING] Balance is out of range 100..1500");
+        } else {
+            this.balance = balance;
+        }
     }
 
     public void setCustomer( Customer customer ){
