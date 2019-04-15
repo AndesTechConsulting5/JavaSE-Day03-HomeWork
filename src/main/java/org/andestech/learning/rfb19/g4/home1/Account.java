@@ -51,7 +51,4 @@ public class Account {
         this.customer = customer;
     }
 
-    public void getAccountInfo(){
-        System.out.println("Customer ID = " + id + ", Balance = " + balance);
-    }
 }

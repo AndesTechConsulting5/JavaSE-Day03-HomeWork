@@ -43,8 +43,4 @@ public class Customer {
         this.address = address;
     }
 
-    public void getCustomerInfo(){
-        System.out.println("First Name = " + firstName + ", Second Name = " + secondName + ", Address = " + address);
-    }
-
 }
