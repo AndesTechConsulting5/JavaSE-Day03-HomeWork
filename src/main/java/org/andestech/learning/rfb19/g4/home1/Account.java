@@ -9,11 +9,11 @@ public class Account {
         if (balance > 1_000_000) {
             System.out.println("Баланс превышен, нельзя указать баланс более 1 млн, баланс установлен в 1 млн");
             this.balance = 1_000_000;
-            return;
+
         } else
             if (balance < 0) {
                 System.out.println("Нельзя установить отрицательный баланс");
-                return;
+
             } else  this.balance = balance;
         this.id = id;
         this.customer = customer;

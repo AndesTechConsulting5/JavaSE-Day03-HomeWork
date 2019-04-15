@@ -16,7 +16,7 @@ public class App
         System.out.println(petrovCustomer.getFirstName());
         System.out.println(petrovCustomer.getSecondName());
         System.out.println(petrovAccount.getBalance());
-     //   System.out.println(petrovAccount.customer.getSecondName());
+        System.out.println(petrovAccount.customer.getSecondName());
 
 
 
