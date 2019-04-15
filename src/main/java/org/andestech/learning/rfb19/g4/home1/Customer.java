@@ -10,4 +10,12 @@ public class Customer {
         this.secondName = secondName;
         this.address = address;
     }
+
+    public String getFirstName() {
+        return this.firstName;
+    }
+
+    public String getSecondName() {
+        return this.secondName;
+    }
 }
