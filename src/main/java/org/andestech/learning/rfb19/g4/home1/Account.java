@@ -34,19 +34,19 @@ public class Account {
 
     public Account(int id, double balance, Customer customer) {
         this.id = id;
-        this.balance = balance;
+        this.setBalance(balance);
         this.customer = customer;
     }
 
     public Account(int id, double balance) {
-        new Account(id, balance, new Customer());
+        this(id, balance, new Customer());
     }
 
     public Account(int id) {
-        new Account(id, 0);
+        this(id, 0);
     }
 
     public Account() {
-        new Account(0);
+        this(0);
     }
 }

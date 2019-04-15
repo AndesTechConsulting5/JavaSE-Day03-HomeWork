@@ -35,14 +35,14 @@ public class Customer {
     }
 
     public Customer(String firstName, String secondName) {
-        new Customer(firstName, secondName, "");
+        this(firstName, secondName, "");
     }
 
     public Customer(String firstName) {
-        new Customer(firstName, "");
+        this(firstName, "");
     }
 
     public Customer() {
-        new Customer("");
+        this("");
     }
 }
