@@ -17,6 +17,19 @@ public class App
         System.out.println(petrovCustomer.getSecondName());
         System.out.println(petrovAccount.getBalance());
         System.out.println(petrovAccount.customer.getSecondName());
+        System.out.println(Account.getCount());
+        petrovAccount.changeBalance(-1_000_001);
+        System.out.println(petrovAccount.getBalance());
+        Account.changeBalance2(petrovAccount,-400);
+        System.out.println(petrovAccount.getBalance());
+
+        CreditAccount creditAccount = CreditAccount.createCreditAccount(100, 2);
+
+        System.out.println(creditAccount instanceof Object);
+        System.out.println(creditAccount instanceof CreditAccount);
+        System.out.println(creditAccount.getClass());
+
+
 
 
 
