@@ -37,12 +37,4 @@ public class Customer {
     public Customer(String firstName, String secondName) {
         this(firstName, secondName, "");
     }
-
-    public Customer(String firstName) {
-        this(firstName, "");
-    }
-
-    public Customer() {
-        this("");
-    }
 }

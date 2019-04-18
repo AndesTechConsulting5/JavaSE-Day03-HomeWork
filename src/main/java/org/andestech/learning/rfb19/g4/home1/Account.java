@@ -38,15 +38,7 @@ public class Account {
         this.customer = customer;
     }
 
-    public Account(int id, double balance) {
-        this(id, balance, new Customer());
-    }
-
-    public Account(int id) {
-        this(id, 0);
-    }
-
-    public Account() {
-        this(0);
+    public Account(int id, Customer customer) {
+        this(id, 0, customer);
     }
 }
