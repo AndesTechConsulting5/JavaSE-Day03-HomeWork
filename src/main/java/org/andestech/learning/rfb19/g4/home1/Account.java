@@ -6,27 +6,27 @@ public class Account {
 
     private int id;
     private double balance;
-    private Customer customer = new Customer();
+    //private Customer customer = new Customer();
 
 
+    // CONSTANTS
+    private static final double MAX_VAL = 1500, MIN_VAL = 10;
 
-
-    public Account(){
-    }
+    // default
+    public Account(){}
 
     // Constructor
     public Account( int id, double balance, Customer customer) {
 
         this.id = id;
         //this.balance = balance;
-        this.customer = customer;
-
-        //double maxValue = 1500;
-        //double minValue = 100;
+        //this.customer = customer;
 
 
 
-        if (balance < 100 || balance > 1500) {
+
+
+        if (balance < MIN_VAL || balance > MAX_VAL) {
 
             System.out.println("[WARNING] Balance is out of range 100..1500");
         } else {
@@ -43,7 +43,7 @@ public class Account {
 
     public void setBalance( double balance ){
 
-        if (balance < 100 || balance > 1500) {
+        if (balance < MIN_VAL || balance > MAX_VAL) {
 
             System.out.println("[WARNING] Balance is out of range 100..1500");
         } else {
@@ -51,9 +51,11 @@ public class Account {
         }
     }
 
+    /*
     public void setCustomer( Customer customer ){
         this.customer = customer;
     }
+    */
 
 
     // GETTER
@@ -65,10 +67,11 @@ public class Account {
         return balance;
     }
 
+    /*
     public Customer getCustomer( ){
         return customer;
     }
-
+    */
 
     }
 

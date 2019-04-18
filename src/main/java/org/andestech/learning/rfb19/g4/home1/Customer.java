@@ -8,9 +8,7 @@ public class Customer {
     private String address;
 
 
-    public Customer(){
-
-    }
+    //public Customer(){}
 
 
     public Customer( String firstName, String secondName, String address){

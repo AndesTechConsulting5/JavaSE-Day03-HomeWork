@@ -1,7 +1,7 @@
 package org.andestech.learning.rfb19.g4.home1;
 
 /**
- * Home Work 1
+ * Home Work OVODENKO
  *
  *
  */
@@ -11,10 +11,16 @@ public class App
 
         // empty classes
         Account Account_empty = new Account();
-        Customer Customer_empty = new Customer();
+        //Customer Customer_empty = new Customer();
 
         System.out.println( Account_empty.getBalance() );
         System.out.println( Account_empty.getId() );
+
+        /*
+        System.out.println( Customer_empty.getAddress() );
+        System.out.println( Customer_empty.getFirstName() );
+        System.out.println( Customer_empty.getSecondName() );
+         */
 
         // classes initialized
         Customer newClient = new Customer ("NameTest", "SurnameTest", "Moscow");
@@ -42,11 +48,9 @@ public class App
         balance = newAccount.getBalance();
         System.out.println("balance setted to---> " + balance + " RUR");
 
-        newAccount.setBalance( 0 );
+        newAccount.setBalance( 5 );
         balance = newAccount.getBalance();
         System.out.println("balance setted to---> " + balance + " RUR");
-
-
 
 
     }
