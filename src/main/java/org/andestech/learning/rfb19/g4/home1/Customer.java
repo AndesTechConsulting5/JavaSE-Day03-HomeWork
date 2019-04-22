@@ -33,7 +33,4 @@ class Customer {
         this.secondName = secondName;
         this.address = address;
     }
-
-    public static void main (String [] args){
-    }
 }
